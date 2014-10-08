@@ -1,0 +1,40 @@
+#content {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: "sans-serif";
+}
+#interaction {
+  font-size: 2em;
+  text-align: center;
+}
+#input {
+  border: 1px solid gray;
+  font-family: inherit;
+  font-size: 100%;
+  max-width: 7em;
+  width: 7em;
+}
+#errors:not(:empty) {
+  margin: 1em;
+  padding: 0.5em;
+}
+#errors:not(:empty):before {
+  content: "Error ";
+  color: red;
+  font-weight: bold;
+}
+#prime, #not-prime {
+  width: 50%;
+}
+ul {
+  list-style: none;
+  margin: 0.2em;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  padding: 0.1em 0.3em;
+}
+#prime { float: left; }
+#not-prime { float: right; }
+#not-prime-heading { text-align: right; }

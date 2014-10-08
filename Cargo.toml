@@ -1,0 +1,11 @@
+[package]
+
+name = "prime-website"
+version = "0.0.1"
+authors = ["Huon Wilson <dbau.pp+github@gmail.com>"]
+
+[dependencies.nickel]
+git = "https://github.com/nickel-org/nickel.rs.git"
+
+[dependencies.slow_primes]
+git = "https://github.com/huonw/slow_primes"
