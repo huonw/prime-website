@@ -23,6 +23,9 @@
   color: red;
   font-weight: bold;
 }
+#results {
+  margin-top: 2em;
+}
 #prime, #not-prime {
   width: 50%;
 }
@@ -35,6 +38,6 @@ li {
   display: inline-block;
   padding: 0.1em 0.3em;
 }
-#prime { float: left; }
-#not-prime { float: right; }
+#prime { float: left; border-right: 1px solid gray; box-sizing: border-box; }
+#not-prime { float: right; border-left: 1px solid gray; margin-left: -1px; }
 #not-prime-heading { text-align: right; }
